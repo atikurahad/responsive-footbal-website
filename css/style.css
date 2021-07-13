@@ -62,3 +62,75 @@ body {
   grid-template-columns: repeat(3, 1fr);
   margin: 0px 110px;
 }
+/* ThirdSection */
+
+.third-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.match-highlights {
+  margin: 10px 30px 0px 110px;
+}
+.match-highlights h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.match-highlights p {
+  font-size: 18px;
+  width: 469px;
+}
+.match-img {
+  width: 567px;
+  height: 427px;
+}
+
+/* footer Section */
+.foot-img img {
+  width: 500px;
+  height: 110px;
+  margin-top: 100px;
+}
+.foot-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+.fa-instagram-square {
+  font-size: 50px;
+  color: red;
+  margin-right: 10px;
+}
+.fa-facebook-square {
+  font-size: 50px;
+  color: blue;
+  margin-right: 10px;
+}
+.fa-twitter {
+  font-size: 50px;
+  color: blue;
+  margin-right: 10px;
+}
+.fa-youtube {
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  margin-right: 10px;
+}
+.fa-dribbble {
+  font-size: 50px;
+  color: black;
+  margin-right: 10px;
+}
+footer {
+  height: 213px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  width: 236px;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+}
