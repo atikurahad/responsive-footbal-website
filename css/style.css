@@ -18,7 +18,7 @@ body {
 .first-btn {
   font-size: 20px;
   padding: 12px;
-  background-image: linear-gradient(to right, #580923, #572bcf);
+  background-image: linear-gradient(to right, #e52d27, #b31217);
   /* transition: 0.2s ease, padding 0.8s linear; */
   /* background-color: red; */
 }
@@ -26,7 +26,7 @@ body {
   font-size: 30px;
   margin-left: 5px;
   text-align: center;
-  color: rgba(166, 221, 15, 0.87);
+  color: black;
 }
 .football-bg {
   width: 556.01px;
@@ -36,17 +36,29 @@ body {
 
 /* Section two Style */
 .container {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  margin: 5%;
+  background-color: white;
 }
 .player {
-  display: grid;
-  box-sizing: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 330px;
+  height: 474px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 50px rgb(199, 193, 193);
 }
 .player img {
   width: 300px;
   height: 256px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 .players {
   display: grid;
+  /* grid-row-gap: 10px; */
   grid-template-columns: repeat(3, 1fr);
+  margin: 0px 110px;
 }
