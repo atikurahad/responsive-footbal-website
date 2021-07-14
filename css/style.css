@@ -107,6 +107,24 @@ body {
   height: 427px;
 }
 
+/* Aside Images */
+#partner {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: purple;
+}
+.our-clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.partner {
+  height: 150px;
+  width: 130px;
+  margin: 10px;
+}
+
 /* footer Section */
 
 .footer-section {
@@ -155,6 +173,7 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
 footer {
   height: 50px;
   /* margin-top: 30px; */
