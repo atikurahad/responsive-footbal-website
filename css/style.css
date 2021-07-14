@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+* {
+  box-sizing: border-box;
+}
 .first-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,9 +21,18 @@ body {
 .first-btn {
   font-size: 20px;
   padding: 12px;
-  background-image: linear-gradient(to right, #e52d27, #b31217);
-  /* transition: 0.2s ease, padding 0.8s linear; */
-  /* background-color: red; */
+  background-image: linear-gradient(
+    to right,
+    #e52d27,
+    #b31217,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 .fa-long-arrow-alt-right {
   font-size: 30px;
@@ -29,11 +41,15 @@ body {
   color: black;
 }
 .football-bg {
-  width: 556.01px;
-  height: 438px;
+  width: 500px;
+  height: 400px;
   margin: 118px;
+  transition: width 3s, height 5s;
 }
-
+.football-bg:hover {
+  width: 550px;
+  height: 500px;
+}
 /* Section two Style */
 .container {
   margin: 5%;
@@ -60,6 +76,11 @@ body {
   /* grid-row-gap: 10px; */
   grid-template-columns: repeat(3, 1fr);
   margin: 0px 110px;
+}
+.para-style {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
 }
 /* ThirdSection */
 
@@ -141,3 +162,11 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+/*------------------
+ Media Queries
+ ------------------- */
+
+/* @media screen and ( max-width:){
+
+ } */
